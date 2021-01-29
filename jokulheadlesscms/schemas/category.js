@@ -1,17 +1,19 @@
-export default {
-  name: 'category',
-  title: 'Category',
-  type: 'document',
+const category = {
+  name: "category",
+  title: "Category",
+  type: "document",
   fields: [
     {
-      name: 'title',
-      title: 'Title',
-      type: 'string',
+      name: "title",
+      title: "Title",
+      type: "string",
     },
     {
-      name: 'description',
-      title: 'Description',
-      type: 'text',
+      name: "description",
+      title: "Description",
+      type: "text",
     },
   ],
-}
+};
+
+export default category;
