@@ -9,6 +9,15 @@ const carousel = {
       type: "string",
     },
     {
+      name: "slug",
+      title: "Slug",
+      type: "slug",
+      options: {
+        source: "title",
+        maxLength: 96,
+      },
+    },
+    {
       name: "description",
       title: "Description",
       type: "blockContent",
